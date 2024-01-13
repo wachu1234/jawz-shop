@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\static\styles\SPARE.css">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+    height: 100vh;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+        }
+        img{
+            max-width: 100%;
+            min-width: 100%;
+        }
+        
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            margin: 5%;
+            /* grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 30% 30%; */
+            row-gap: 100px;
+            justify-content: space-around;
+            transition: width 2s,height 2s,transform 2s;
+        }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            gap: 150px;
+            border: 2px solid black;
+            padding: 20px;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .n-logo{
+            width: 100px;
+        }
+
+        .n-search input{
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .n-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            min-width: 50%;
+            align-items: center;
+        }
+
+        .fig{
+            /* width:; */
+            padding: 10px;
+            text-align: center;
+            transition: width 2s,height 2s,transform 2s;
+        }
+
+         body {
+            background-color: rgb(252, 251, 251);
+        }
+        .fig img:hover{
+            width: 200px;
+            height: 200px;
+            transform: zoom;
+        }
+        .fig1 {
+            padding: 10px;
+            text-align: center;
+            transition: width 2s,height 2s,transform 2s;
+            width: 20%;
+        }
+        .fig2 {
+            padding: 10px;
+            width: 20%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="navdiv">
+        <div class="navdiv1">
+            <div class="navbar">
+                <div class="n-logo">
+                    <img src="/images/image0.jpeg" alt="image0">
+
+                </div>
+                <div class="n-search">
+                    <input type="text" placeholder="search">
+
+                </div>
+                <div class="n-items">
+                    <a href="index.html">home</a>
+                    <a href="#">about</a>
+                    <a href="#">help</a>
+                    <a href="#">history</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="fig">
+           <a href="order.html"> <img src="/images/re name plate" alt="image bicke"></a>
+            <p>RE NUMBER PLATE</p>
+        </div>
+        <div class="fig">
+            <a href="order1.html"><img src="/images/tank grey.jpg" alt="image bicke"></a>
+            <p> RE TANK</p>
+        </div>
+        <div class="fig2">
+            <a href="/order3.html"><img src="/images/external parts image.jpg" alt="image bicke"></a>
+            <p>RE EXTERNAL PARTS</p>
+        </div>
+        <div class="fig1">
+            <a href="/order4.html"><img src="/images/bike.jpeg" alt="image bicke" href="portfolio.html"></a>
+            <P>PARTS</P>
+        </div>
+        <!-- <div class="fig"><img src="/bud guard.jpg" alt="image bicke">
+            <p>RE Mud Guard Rs:1000</p>
+        </div>
+        <div class="fig"><img src="/rear light.jpeg" alt="image bicke">
+            <p>RE Rear Light Rs:599</p>
+        </div>
+        <div class="fig1"></div> -->
+
+    </div>
+    
+
+</body>
+
+</html>
